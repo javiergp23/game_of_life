@@ -1,3 +1,4 @@
+//Variables iniciales
 let canvas;
 let ctx;
 let fps = 30;
@@ -16,9 +17,15 @@ let blanco = '#ffffff';
 let negro = '#000000<s';
 
 function inicializar() {
+    //inicializar canvas
     canvas = document.getElementById('canvas');
-    canvas = canvas.getContext('2d');
-
+    ctx = canvas.getContext('2d');
+    
+    //ajustamos el tamaño del canvas
     canvas.width = canvasX;
     canvas.height = canvasY;
+
+    tileX = canvasX / filas;
+    tileY = canvasY / columnas;
+    console.log('X: ' + tileX);
 }
