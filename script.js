@@ -25,6 +25,7 @@ function inicializar() {
     canvas.width = canvasX;
     canvas.height = canvasY;
 
+    //inicializamos el tablero 
     tileX = canvasX / filas;
     tileY = canvasY / columnas;
     console.log('X: ' + tileX);
