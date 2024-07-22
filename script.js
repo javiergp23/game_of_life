@@ -16,6 +16,7 @@ let columnas = 100;
 let blanco = '#ffffff';
 let negro = '#000000<s';
 
+//variables de jugador
 function inicializar() {
     //inicializar canvas
     canvas = document.getElementById('canvas');
