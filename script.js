@@ -5,7 +5,7 @@ let fps = 30;
 
 let canvasX = 500; //pixels ancho
 let canvasY = 500; //pixels alto
-
+    
 let tileX, tileY;
 
 //variables de tablero
@@ -31,3 +31,5 @@ function inicializar() {
     tileY = canvasY / columnas;
     console.log('X: ' + tileX);
 }
+
+//continuación
