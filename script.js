@@ -3,6 +3,11 @@ let canvas;
 let ctx;
 let fps = 30;
 
+//Variables secundarias
+let canvas2;
+let ctx2;
+let fps2 = 30;
+
 let canvasX = 500; //pixels ancho
 let canvasY = 500; //pixels alto
     
