@@ -31,5 +31,3 @@ function inicializar() {
     tileY = canvasY / columnas;
     console.log('X: ' + tileX);
 }
-
-//continuación
